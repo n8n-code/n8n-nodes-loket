@@ -343,9 +343,7 @@ export const leavePolicyAndEmploymentLinksDescription: INodeProperties[] = [
 			"displayName": "Body",
 			"name": "body",
 			"type": "string",
-			"default": {
-				"id": "b14acd0d-75d7-4fc8-8b22-4a3924585cab"
-			},
+			"default": "{\"id\":\"b14acd0d-75d7-4fc8-8b22-4a3924585cab\"}",
 			"routing": {
 				"request": {
 					"body": "={{ JSON.parse($value) }}"
@@ -615,9 +613,7 @@ export const leavePolicyAndEmploymentLinksDescription: INodeProperties[] = [
 			"displayName": "Body",
 			"name": "body",
 			"type": "string",
-			"default": {
-				"id": "b14acd0d-75d7-4fc8-8b22-4a3924585cab"
-			},
+			"default": "{\"id\":\"b14acd0d-75d7-4fc8-8b22-4a3924585cab\"}",
 			"routing": {
 				"request": {
 					"body": "={{ JSON.parse($value) }}"

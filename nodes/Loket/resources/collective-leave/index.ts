@@ -120,15 +120,7 @@ export const collectiveLeaveDescription: INodeProperties[] = [
 			"displayName": "Body",
 			"name": "body",
 			"type": "string",
-			"default": {
-				"comments": "This leave is added.",
-				"employmentId": "b14acd0d-75d7-4fc8-8b22-4a3924585cab",
-				"endDate": "2022-10-22",
-				"isAccrual": true,
-				"leaveType": 1,
-				"numberOfUnits": 4.5,
-				"startDate": "2022-10-21"
-			},
+			"default": "{\"comments\":\"This leave is added.\",\"employmentId\":\"b14acd0d-75d7-4fc8-8b22-4a3924585cab\",\"endDate\":\"2022-10-22\",\"isAccrual\":true,\"leaveType\":1,\"numberOfUnits\":4.5,\"startDate\":\"2022-10-21\"}",
 			"routing": {
 				"request": {
 					"body": "={{ JSON.parse($value) }}"

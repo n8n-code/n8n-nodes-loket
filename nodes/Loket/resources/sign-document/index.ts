@@ -432,12 +432,7 @@ export const signDocumentDescription: INodeProperties[] = [
 			"displayName": "Body",
 			"name": "body",
 			"type": "string",
-			"default": {
-				"emailAddress": "test@test.com",
-				"mobilePhoneNumber": "+31612345678",
-				"name": "Ben Hur",
-				"signingOrder": "2"
-			},
+			"default": "{\"emailAddress\":\"test@test.com\",\"mobilePhoneNumber\":\"+31612345678\",\"name\":\"Ben Hur\",\"signingOrder\":\"2\"}",
 			"routing": {
 				"request": {
 					"body": "={{ JSON.parse($value) }}"
@@ -878,12 +873,7 @@ export const signDocumentDescription: INodeProperties[] = [
 			"displayName": "Body",
 			"name": "body",
 			"type": "string",
-			"default": {
-				"emailAddress": "test@test.com",
-				"mobilePhoneNumber": "+31612345678",
-				"name": "Ben Hur",
-				"signingOrder": "2"
-			},
+			"default": "{\"emailAddress\":\"test@test.com\",\"mobilePhoneNumber\":\"+31612345678\",\"name\":\"Ben Hur\",\"signingOrder\":\"2\"}",
 			"routing": {
 				"request": {
 					"body": "={{ JSON.parse($value) }}"

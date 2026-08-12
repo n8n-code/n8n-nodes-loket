@@ -343,15 +343,7 @@ export const documentManagementDescription: INodeProperties[] = [
 			"displayName": "Body",
 			"name": "body",
 			"type": "string",
-			"default": {
-				"canWrite": {
-					"departmentManager": false,
-					"employee": false,
-					"employer": false,
-					"provider": true
-				},
-				"category": "Arbeidsovereenkomst"
-			},
+			"default": "{\"canWrite\":{\"departmentManager\":false,\"employee\":false,\"employer\":false,\"provider\":true},\"category\":\"Arbeidsovereenkomst\"}",
 			"routing": {
 				"request": {
 					"body": "={{ JSON.parse($value) }}"

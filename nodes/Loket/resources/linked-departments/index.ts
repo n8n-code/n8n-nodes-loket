@@ -312,10 +312,7 @@ export const linkedDepartmentsDescription: INodeProperties[] = [
 			"displayName": "Body",
 			"name": "body",
 			"type": "string",
-			"default": {
-				"departmentId": "b14acd0d-75d7-4fc8-8b22-4a3924585cab",
-				"hasAccessToSubDepartments": false
-			},
+			"default": "{\"departmentId\":\"b14acd0d-75d7-4fc8-8b22-4a3924585cab\",\"hasAccessToSubDepartments\":false}",
 			"routing": {
 				"request": {
 					"body": "={{ JSON.parse($value) }}"

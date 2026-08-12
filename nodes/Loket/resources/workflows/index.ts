@@ -317,18 +317,7 @@ export const workflowsDescription: INodeProperties[] = [
 			"displayName": "Data",
 			"name": "data",
 			"type": "string",
-			"default": {
-				"address": {
-					"city": "Leiden",
-					"country": {
-						"key": 1
-					},
-					"houseNumber": 12,
-					"houseNumberAddition": "D",
-					"postalCode": "1234 AA",
-					"street": "Voordijk"
-				}
-			},
+			"default": "{\"address\":{\"city\":\"Leiden\",\"country\":{\"key\":1},\"houseNumber\":12,\"houseNumberAddition\":\"D\",\"postalCode\":\"1234 AA\",\"street\":\"Voordijk\"}}",
 			"description": "A JSON representation of the mutation/data regarding this workflow",
 			"routing": {
 				"send": {
